@@ -24,7 +24,7 @@ int main() {
            }
            err = abs((b - a) / 2);
        }
-   }while (err>=1e-6);
+   }while ((err>=1e-6) &&(f(x)!=0));
     cout<<x<<endl<<f(x);
     return 0;
 }
